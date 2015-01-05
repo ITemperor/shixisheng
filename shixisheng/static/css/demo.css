@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+.demo_changer .form_holder p {
+padding-left: 20px;
+padding-right: 10px;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size: 15px;
+color: #000;
+}
+
+.demo_changer .form_holder {
+background: rgba(255, 255, 255, 0.78);
+float: right;
+width: 160px;
+height: 330px;
+padding: 5px;
+}
+
+.demo_changer{
+    z-index: 900; 
+    position: fixed;
+    left: -160px;
+    top: 150px 
+}
+
+.active {
+    background: rgba(90, 34, 34, 0);
+}
+
+.line {
+    border-bottom: 1px solid #efefef;
+    clear: both;
+    margin: 20px !important;
+}
+
+img.img-demo {
+width: 100%;
+opacity: 0.7;
+-webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -o-transition: all ease .5s;
+}
+
+img.img-demo:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+span a {    color:red; margin-top:20px; margin-bottom:20px; 
+    font-size: 16px;
+	line-height: 22px;
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin-left:20px;
+    padding-top:40px;
+    padding-bottom:20px;
+    opacity:1;
+}
+
+
+span a:hover,
+span a:active {opacity:1; color:#7F7F7F;
+}
+
+
+.demo_changer .demo-icon{
+    background: url(../img/color.png) no-repeat scroll 4px 0 rgba(255, 255, 255, 0.78);
+    cursor: pointer;
+    float: right;
+    height: 40px;
+    width: 40px;
+}
+
+.form_holder p {
+    color:#bebebe; margin-top:20px; margin-bottom:15px;
+    font-size: 18px;
+	line-height: 20px;
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+
+    
+    }
+.form_holder {marign-right:20px;}
+
+.form_holder a:hover {opacity:0.8}
+
+.demo_changer .form_holder input{
+    width: 55px;
+	box-shadow: none;
+}
+
+.color_display_2 a{
+    color: #fff;
+    text-decoration: none;
+    opacity:1;
+
+
+}
+
+.color_display_2 a:focus,
+.color_display_2 a:hover {
+    color: #ededed !important;
+    text-decoration: none;
+    opacity:0.8;
+}
+
+
+.predefined_styles{
+    margin-left:20px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-right:20px;
+}
+
+.predefined_styles a {
+    margin-left:0px;
+    margin-right:0px;
+    opacity:1;
+}
+
+.predefined_styles img{
+    margin-right:-5px;
+    width: 25px;
+}
+
+.predefined_styles img:hover{
+    opacity:1;
+}
+
+.variant {margin-left:20px; margin-bottom:1px; opacity:1;}
+
+
+@media only screen and (max-width: 1024px) {
+.demo_changer{
+    display: none;
+}
+} 
+
+

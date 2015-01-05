@@ -1,0 +1,8 @@
+<meta charset="utf-8"/> 
+<form action="/edit/{{s.id}}" method="POST">
+{%csrf_token%}
+{{time}}
+<input type="text" name="name" value={{s.name}} />
+<input type="text" name="addrss" value={{s.addrss}} />
+<button>send</button>
+</form>
